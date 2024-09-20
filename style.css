@@ -1,0 +1,29 @@
+/* timer */
+button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+}
+/* sekil */
+ #imageContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+}
+
+.large {
+    transform: scale(1.5); 
+    z-index: 10;
+}
+
+
+
+/* Guardian */
